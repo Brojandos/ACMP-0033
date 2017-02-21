@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int harryCansNumber = in.nextByte();
-        int larryCansNumber = in.nextByte();
+        byte harryCansNumber = in.nextByte();
+        byte larryCansNumber = in.nextByte();
         System.out.printf("%d %d", larryCansNumber - 1, harryCansNumber - 1);
     }
 }
